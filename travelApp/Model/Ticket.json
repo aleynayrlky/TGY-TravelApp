@@ -1,0 +1,82 @@
+/* 
+  Ticket.json
+  travelApp
+
+  Created by Aleyna Yerlikaya on 22.04.2024.
+  
+*/
+
+{
+    {
+        "companyName": "Metro",
+        "hour": "09.00"
+        "companyID": 1,
+        "price": 200
+    },
+    {
+        "companyName": "Pamukkale",
+        "hour": "09.00"
+        "companyID": 2,
+        "price": 250
+    },
+    {
+        "companyName": "Kamil Koç",
+        "hour": "09.00"
+        "companyID": 3,
+        "price": 220
+    },
+    {
+        "companyName": "Metro",
+        "hour": "10.00"
+        "companyID": 4,
+        "price": 200
+    },
+    {
+        "companyName": "Pamukkale",
+        "hour": "10.00"
+        "companyID": 5,
+        "price": 250
+    },
+    {
+        "companyName": "Kamil Koç",
+        "hour": "10.00"
+        "companyID": 6,
+        "price": 220
+    },
+    {
+        "companyName": "Metro",
+        "hour": "12.00"
+        "companyID": 7,
+        "price": 200
+    },
+    {
+        "companyName": "Pamukkale",
+        "hour": "12.00"
+        "companyID": 8,
+        "price": 250
+    },
+    {
+        "companyName": "Kamil Koç",
+        "hour": "12.00"
+        "companyID": 9,
+        "price": 220
+    },
+    {
+        "companyName": "Metro",
+        "hour": "18.00"
+        "companyID": 10,
+        "price": 200
+    },
+    {
+        "companyName": "Pamukkale",
+        "hour": "19.00"
+        "companyID": 11,
+        "price": 250
+    },
+    {
+        "companyName": "Kamil Koç",
+        "hour": "20.00"
+        "companyID": 12,
+        "price": 220
+    },
+}
