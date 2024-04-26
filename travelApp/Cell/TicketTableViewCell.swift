@@ -8,11 +8,20 @@
 import UIKit
 
 class TicketTableViewCell: UITableViewCell {
-
+    
+    @IBOutlet weak var view: UIView!
+    @IBOutlet weak var qrImage: UIImageView!
+    @IBOutlet weak var nameLabel: UILabel!
+    @IBOutlet weak var surnameLabel: UILabel!
+    @IBOutlet weak var hourLabel: UILabel!
+    @IBOutlet weak var dateLabel: UILabel!
+    @IBOutlet weak var totalPriceLabel: UILabel!
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
     }
 
+    
     
 }

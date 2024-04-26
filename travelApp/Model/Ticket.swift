@@ -8,11 +8,11 @@
 import Foundation
 
 struct Ticket {
-    var seatNumber: Int
-    var passenger: Passenger
-    var date: Date
-    var hour: Hour
-    var totalPrice: String
+    let seatNumber: Int
+    let passenger: Passenger
+    let date: Date
+    let hour: Hour
+    let cities: City
     
     func comparison(){ //karşılaştırma
         
@@ -31,26 +31,12 @@ struct Ticket {
     }
 }
 
-struct Passenger {
-    var name: String
-    var surname: String
-    var id: Int
-}
 
-struct Date {
-    var day: String
-    var month: String
-    var year: String
-}
 
-struct Hour {
-    var hour: String
-    var minute: String
-}
 
-struct Company: Decodable {
-    var companyName: String
-    var price: String
-}
+
+
+
+
 
 

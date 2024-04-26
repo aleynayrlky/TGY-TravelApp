@@ -27,53 +27,37 @@ class SignupScreenViewController: UIViewController {
     
     
     @IBAction func signupAction(_ sender: Any) {
-        
-        if let name = nameTextField.text {
-            user?.name = name
-            if let surname = surnameTextfield.text {
-                user?.surname = surname
-                if let email = emailTextField.text {
-                    user?.email = email
-                    if let password = passwordTextField.text {
-                        user?.password = password
-                    } else {
-                        alertFunc("Hata", "Boş yerleri doldurunuz")
-                    }
-                } else {
-                    alertFunc("Hata", "Boş yerleri doldurunuz")
-                }
-            } else {
-                alertFunc("Hata", "Boş yerleri doldurunuz")
-            }
-        } else {
-            alertFunc("Hata", "Boş yerleri doldurunuz")
+      
+        guard let name = nameTextField.text, !name.isEmpty,
+                let surname = surnameTextfield.text, !surname.isEmpty,
+                let email = emailTextField.text, !email.isEmpty,
+              let password = passwordTextField.text, !password.isEmpty else {
+            alertFunc("Hata", "Boşlukları doldurunuz")
+            return
         }
-        
-        saveUser()
+        saveUserData(name: name, surname: surname, email: email, password: password)
+        self.navigationController?.popViewController(animated: true)
     }
     
-    func saveUser() {
+    func saveUserData(name: String, surname: String, email: String, password: String) {
+        
         guard let appDelegate = UIApplication.shared.delegate as? AppDelegate else { return }
         let context = appDelegate.persistentContainer.viewContext
-        let newUser = NSEntityDescription.insertNewObject(forEntityName: "Users", into: context)
-        newUser.setValue(user?.name, forKey: "name")
-        newUser.setValue(user?.surname, forKey: "surname")
-        newUser.setValue(user?.email, forKey: "email")
-        newUser.setValue(user?.password, forKey: "password")
-        
-        do{
-            print("\(user?.name ?? "")isim kaydedildi")
-            print("\(user?.surname ?? "")soyisim kaydedildi")
-            print("\(user?.email ?? "")email kaydedildi")
-            print("\(user?.password ?? "")şifre kaydedildi")
+        let user = Users(context: context)
+        user.name = name
+        user.surname = surname
+        user.email = email
+        user.password = password
+        do {
             try context.save()
-        }catch{
-            print("veri kaydedilemedi")
+            print("Kullanıcı başarıyla kaydedildi.")
+        } catch let error as NSError {
+            print("Hata: \(error.localizedDescription)")
         }
-        
-        //performSegue(withIdentifier: "LoginScreenVC", sender: nil)
-        
     }
+
+
+    
     func alertFunc(_ title: String, _ message: String){
         let alert = UIAlertController(title: title, message: message, preferredStyle: .alert)
         let okButton = UIAlertAction(title: "OK", style: .default, handler: nil)

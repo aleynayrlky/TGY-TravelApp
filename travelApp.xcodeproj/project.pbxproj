@@ -7,11 +7,15 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		EE0EB8332BDAB8B60002B189 /* Passenger.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EB8322BDAB8B60002B189 /* Passenger.swift */; };
+		EE0EB8352BDAB8CC0002B189 /* Date.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE0EB8342BDAB8CC0002B189 /* Date.swift */; };
 		EE1262CE2BD5929F008480F6 /* Ticket.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE1262CD2BD5929F008480F6 /* Ticket.swift */; };
-		EE6E9ACC2BD8E65900BE19AC /* TestViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E9ACB2BD8E65900BE19AC /* TestViewController.swift */; };
-		EE6E9ACE2BD943B400BE19AC /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E9ACD2BD943B400BE19AC /* TicketViewController.swift */; };
-		EE6E9AD72BD9448500BE19AC /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E9AD52BD9448500BE19AC /* TicketTableViewCell.swift */; };
-		EE6E9AD82BD9448500BE19AC /* TicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6E9AD62BD9448500BE19AC /* TicketTableViewCell.xib */; };
+		EE6E9ACE2BD943B400BE19AC /* BuyTicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E9ACD2BD943B400BE19AC /* BuyTicketViewController.swift */; };
+		EE6E9AD72BD9448500BE19AC /* BuyTicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE6E9AD52BD9448500BE19AC /* BuyTicketTableViewCell.swift */; };
+		EE6E9AD82BD9448500BE19AC /* BuyTicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE6E9AD62BD9448500BE19AC /* BuyTicketTableViewCell.xib */; };
+		EE97FAE02BD969AD00AC8346 /* TicketViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97FADF2BD969AD00AC8346 /* TicketViewController.swift */; };
+		EE97FAE32BD969C300AC8346 /* TicketTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE97FAE12BD969C300AC8346 /* TicketTableViewCell.swift */; };
+		EE97FAE42BD969C300AC8346 /* TicketTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = EE97FAE22BD969C300AC8346 /* TicketTableViewCell.xib */; };
 		EEC202FC2BD3F36E007869A0 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC202FB2BD3F36E007869A0 /* AppDelegate.swift */; };
 		EEC202FE2BD3F36E007869A0 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC202FD2BD3F36E007869A0 /* SceneDelegate.swift */; };
 		EEC203002BD3F36E007869A0 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC202FF2BD3F36E007869A0 /* ViewController.swift */; };
@@ -22,16 +26,21 @@
 		EEC2034A2BD4085D007869A0 /* SignupScreenViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC203492BD4085D007869A0 /* SignupScreenViewController.swift */; };
 		EEC2034E2BD439FE007869A0 /* TicketSelectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC2034D2BD439FE007869A0 /* TicketSelectionViewController.swift */; };
 		EEC5A3922BD6A9FD008BA104 /* Ticket.json in Resources */ = {isa = PBXBuildFile; fileRef = EEC5A3912BD6A9FD008BA104 /* Ticket.json */; };
-		EEC5A3942BD6AFBF008BA104 /* Users.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC5A3932BD6AFBF008BA104 /* Users.swift */; };
+		EEC5A3942BD6AFBF008BA104 /* User.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC5A3932BD6AFBF008BA104 /* User.swift */; };
 		EEC5A3CD2BD6D91F008BA104 /* travelApp.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = EEC5A3CB2BD6D91F008BA104 /* travelApp.xcdatamodeld */; };
+		EEC8C10C2BDBD522000AECF1 /* City.swift in Sources */ = {isa = PBXBuildFile; fileRef = EEC8C10B2BDBD522000AECF1 /* City.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		EE0EB8322BDAB8B60002B189 /* Passenger.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Passenger.swift; sourceTree = "<group>"; };
+		EE0EB8342BDAB8CC0002B189 /* Date.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Date.swift; sourceTree = "<group>"; };
 		EE1262CD2BD5929F008480F6 /* Ticket.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ticket.swift; sourceTree = "<group>"; };
-		EE6E9ACB2BD8E65900BE19AC /* TestViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestViewController.swift; sourceTree = "<group>"; };
-		EE6E9ACD2BD943B400BE19AC /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
-		EE6E9AD52BD9448500BE19AC /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
-		EE6E9AD62BD9448500BE19AC /* TicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketTableViewCell.xib; sourceTree = "<group>"; };
+		EE6E9ACD2BD943B400BE19AC /* BuyTicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketViewController.swift; sourceTree = "<group>"; };
+		EE6E9AD52BD9448500BE19AC /* BuyTicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BuyTicketTableViewCell.swift; sourceTree = "<group>"; };
+		EE6E9AD62BD9448500BE19AC /* BuyTicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = BuyTicketTableViewCell.xib; sourceTree = "<group>"; };
+		EE97FADF2BD969AD00AC8346 /* TicketViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketViewController.swift; sourceTree = "<group>"; };
+		EE97FAE12BD969C300AC8346 /* TicketTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketTableViewCell.swift; sourceTree = "<group>"; };
+		EE97FAE22BD969C300AC8346 /* TicketTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = TicketTableViewCell.xib; sourceTree = "<group>"; };
 		EEC202F82BD3F36E007869A0 /* travelApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = travelApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EEC202FB2BD3F36E007869A0 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EEC202FD2BD3F36E007869A0 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
@@ -44,8 +53,9 @@
 		EEC203492BD4085D007869A0 /* SignupScreenViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SignupScreenViewController.swift; sourceTree = "<group>"; };
 		EEC2034D2BD439FE007869A0 /* TicketSelectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TicketSelectionViewController.swift; sourceTree = "<group>"; };
 		EEC5A3912BD6A9FD008BA104 /* Ticket.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = Ticket.json; sourceTree = "<group>"; };
-		EEC5A3932BD6AFBF008BA104 /* Users.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Users.swift; sourceTree = "<group>"; };
+		EEC5A3932BD6AFBF008BA104 /* User.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = User.swift; sourceTree = "<group>"; };
 		EEC5A3CC2BD6D91F008BA104 /* travelApp.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = travelApp.xcdatamodel; sourceTree = "<group>"; };
+		EEC8C10B2BDBD522000AECF1 /* City.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = City.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -73,7 +83,10 @@
 			children = (
 				EE1262CD2BD5929F008480F6 /* Ticket.swift */,
 				EEC5A3912BD6A9FD008BA104 /* Ticket.json */,
-				EEC5A3932BD6AFBF008BA104 /* Users.swift */,
+				EEC5A3932BD6AFBF008BA104 /* User.swift */,
+				EE0EB8322BDAB8B60002B189 /* Passenger.swift */,
+				EE0EB8342BDAB8CC0002B189 /* Date.swift */,
+				EEC8C10B2BDBD522000AECF1 /* City.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -81,8 +94,10 @@
 		EE6E9AD42BD9444C00BE19AC /* Cell */ = {
 			isa = PBXGroup;
 			children = (
-				EE6E9AD52BD9448500BE19AC /* TicketTableViewCell.swift */,
-				EE6E9AD62BD9448500BE19AC /* TicketTableViewCell.xib */,
+				EE6E9AD52BD9448500BE19AC /* BuyTicketTableViewCell.swift */,
+				EE6E9AD62BD9448500BE19AC /* BuyTicketTableViewCell.xib */,
+				EE97FAE12BD969C300AC8346 /* TicketTableViewCell.swift */,
+				EE97FAE22BD969C300AC8346 /* TicketTableViewCell.xib */,
 			);
 			path = Cell;
 			sourceTree = "<group>";
@@ -106,6 +121,7 @@
 		EEC202FA2BD3F36E007869A0 /* travelApp */ = {
 			isa = PBXGroup;
 			children = (
+				EEC8C10D2BDBD5F1000AECF1 /* Helpes */,
 				EE6E9AD42BD9444C00BE19AC /* Cell */,
 				EE1262CC2BD59292008480F6 /* Model */,
 				EE1262CB2BD590DB008480F6 /* Delegate */,
@@ -115,7 +131,6 @@
 				EEC203042BD3F370007869A0 /* Assets.xcassets */,
 				EEC203092BD3F370007869A0 /* Info.plist */,
 				EEC5A3CB2BD6D91F008BA104 /* travelApp.xcdatamodeld */,
-				EE6E9ACB2BD8E65900BE19AC /* TestViewController.swift */,
 			);
 			path = travelApp;
 			sourceTree = "<group>";
@@ -127,9 +142,17 @@
 				EEC203472BD40835007869A0 /* LoginScreenViewController.swift */,
 				EEC203492BD4085D007869A0 /* SignupScreenViewController.swift */,
 				EEC2034D2BD439FE007869A0 /* TicketSelectionViewController.swift */,
-				EE6E9ACD2BD943B400BE19AC /* TicketViewController.swift */,
+				EE6E9ACD2BD943B400BE19AC /* BuyTicketViewController.swift */,
+				EE97FADF2BD969AD00AC8346 /* TicketViewController.swift */,
 			);
 			path = Controller;
+			sourceTree = "<group>";
+		};
+		EEC8C10D2BDBD5F1000AECF1 /* Helpes */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Helpes;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -195,8 +218,9 @@
 			buildActionMask = 2147483647;
 			files = (
 				EEC203082BD3F370007869A0 /* LaunchScreen.storyboard in Resources */,
+				EE97FAE42BD969C300AC8346 /* TicketTableViewCell.xib in Resources */,
 				EEC203052BD3F370007869A0 /* Assets.xcassets in Resources */,
-				EE6E9AD82BD9448500BE19AC /* TicketTableViewCell.xib in Resources */,
+				EE6E9AD82BD9448500BE19AC /* BuyTicketTableViewCell.xib in Resources */,
 				EEC5A3922BD6A9FD008BA104 /* Ticket.json in Resources */,
 				EEC203032BD3F36E007869A0 /* Main.storyboard in Resources */,
 			);
@@ -209,12 +233,16 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				EE6E9ACC2BD8E65900BE19AC /* TestViewController.swift in Sources */,
 				EE1262CE2BD5929F008480F6 /* Ticket.swift in Sources */,
-				EEC5A3942BD6AFBF008BA104 /* Users.swift in Sources */,
-				EE6E9AD72BD9448500BE19AC /* TicketTableViewCell.swift in Sources */,
-				EE6E9ACE2BD943B400BE19AC /* TicketViewController.swift in Sources */,
+				EE0EB8332BDAB8B60002B189 /* Passenger.swift in Sources */,
+				EEC8C10C2BDBD522000AECF1 /* City.swift in Sources */,
+				EE97FAE02BD969AD00AC8346 /* TicketViewController.swift in Sources */,
+				EEC5A3942BD6AFBF008BA104 /* User.swift in Sources */,
+				EE6E9AD72BD9448500BE19AC /* BuyTicketTableViewCell.swift in Sources */,
+				EE0EB8352BDAB8CC0002B189 /* Date.swift in Sources */,
+				EE6E9ACE2BD943B400BE19AC /* BuyTicketViewController.swift in Sources */,
 				EEC203002BD3F36E007869A0 /* ViewController.swift in Sources */,
+				EE97FAE32BD969C300AC8346 /* TicketTableViewCell.swift in Sources */,
 				EEC5A3CD2BD6D91F008BA104 /* travelApp.xcdatamodeld in Sources */,
 				EEC2034E2BD439FE007869A0 /* TicketSelectionViewController.swift in Sources */,
 				EEC202FC2BD3F36E007869A0 /* AppDelegate.swift in Sources */,

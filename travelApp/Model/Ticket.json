@@ -1,82 +1,89 @@
-/* 
-  Ticket.json
-  travelApp
-
-  Created by Aleyna Yerlikaya on 22.04.2024.
-  
-*/
-
 {
+  "tickets": [
     {
-        "companyName": "Metro",
-        "hour": "09.00"
-        "companyID": 1,
-        "price": 200
+      "currentCity": "İstanbul",
+      "destination": "Ankara",
+      "companyName": "Metro",
+      "ticketPrice": 150.0,
+      "time": "08:00"
     },
     {
-        "companyName": "Pamukkale",
-        "hour": "09.00"
-        "companyID": 2,
-        "price": 250
+      "currentCity": "İstanbul",
+      "destination": "Ankara",
+      "companyName": "Kamil Koç",
+      "ticketPrice": 100.0,
+      "time": "09:00"
     },
     {
-        "companyName": "Kamil Koç",
-        "hour": "09.00"
-        "companyID": 3,
-        "price": 220
+      "currentCity": "İstanbul",
+      "destination": "Ankara",
+      "companyName": "Ali Osman Ulusoy",
+      "ticketPrice": 130.0,
+      "time": "10:00"
     },
     {
-        "companyName": "Metro",
-        "hour": "10.00"
-        "companyID": 4,
-        "price": 200
+      "currentCity": "Ankara",
+      "destination": "İstanbul",
+      "companyName": "Metro",
+      "ticketPrice": 150.0,
+      "time": "08:00"
     },
     {
-        "companyName": "Pamukkale",
-        "hour": "10.00"
-        "companyID": 5,
-        "price": 250
+      "currentCity": "Ankara",
+      "destination": "İstanbul",
+      "companyName": "Kamil Koç",
+      "ticketPrice": 100.0,
+      "time": "09:00"
     },
     {
-        "companyName": "Kamil Koç",
-        "hour": "10.00"
-        "companyID": 6,
-        "price": 220
+      "currentCity": "Ankara",
+      "destination": "İstanbul",
+      "companyName": "Ali Osman Ulusoy",
+      "ticketPrice": 130.0,
+      "time": "10:00"
     },
     {
-        "companyName": "Metro",
-        "hour": "12.00"
-        "companyID": 7,
-        "price": 200
+      "currentCity": "İstanbul",
+      "destination": "Samsun",
+      "companyName": "Metro",
+      "ticketPrice": 150.0,
+      "time": "08:00"
     },
     {
-        "companyName": "Pamukkale",
-        "hour": "12.00"
-        "companyID": 8,
-        "price": 250
+      "currentCity": "İstanbul",
+      "destination": "Samsun",
+      "companyName": "Kamil Koç",
+      "ticketPrice": 100.0,
+      "time": "09:00"
     },
     {
-        "companyName": "Kamil Koç",
-        "hour": "12.00"
-        "companyID": 9,
-        "price": 220
+      "currentCity": "İstanbul",
+      "destination": "Samsun",
+      "companyName": "Ali Osman Ulusoy",
+      "ticketPrice": 130.0,
+      "time": "10:00"
     },
     {
-        "companyName": "Metro",
-        "hour": "18.00"
-        "companyID": 10,
-        "price": 200
+      "currentCity": "Samsun",
+      "destination": "İstanbul",
+      "companyName": "Metro",
+      "ticketPrice": 150.0,
+      "time": "08:00"
     },
     {
-        "companyName": "Pamukkale",
-        "hour": "19.00"
-        "companyID": 11,
-        "price": 250
+      "currentCity": "Samsun",
+      "destination": "İstanbul",
+      "companyName": "Kamil Koç",
+      "ticketPrice": 100.0,
+      "time": "09:00"
     },
     {
-        "companyName": "Kamil Koç",
-        "hour": "20.00"
-        "companyID": 12,
-        "price": 220
+      "currentCity": "Samsun",
+      "destination": "İstanbul",
+      "companyName": "Ali Osman Ulusoy",
+      "ticketPrice": 130.0,
+      "time": "10:00"
     },
+  ]
 }
+
