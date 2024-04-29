@@ -11,12 +11,8 @@ struct City: Decodable {
     let currentCity: String
     let destination: String
     let companyName: String
-    let ticketPrice: Double
-}
-
-struct Hour: Decodable {
-    var hour: String
-    var minute: String
+    let ticketPrice: Int32
+    let time: String
 }
 
 

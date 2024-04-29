@@ -17,11 +17,16 @@ class TicketTableViewCell: UITableViewCell {
     @IBOutlet weak var dateLabel: UILabel!
     @IBOutlet weak var totalPriceLabel: UILabel!
     
+    var user: User?
+    
     override func awakeFromNib() {
         super.awakeFromNib()
         // Initialization code
+        nameLabel.text = user?.name
+        surnameLabel.text = user?.surname
     }
 
+    
     
     
 }

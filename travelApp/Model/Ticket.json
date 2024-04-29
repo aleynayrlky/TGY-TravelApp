@@ -1,89 +1,88 @@
-{
-  "tickets": [
+[
     {
-      "currentCity": "İstanbul",
-      "destination": "Ankara",
-      "companyName": "Metro",
-      "ticketPrice": 150.0,
-      "time": "08:00"
+        "currentCity": "İstanbul",
+        "destination": "Ankara",
+        "companyName": "Metro",
+        "ticketPrice": 150,
+        "time": "08:00"
     },
     {
-      "currentCity": "İstanbul",
-      "destination": "Ankara",
-      "companyName": "Kamil Koç",
-      "ticketPrice": 100.0,
-      "time": "09:00"
+        "currentCity": "İstanbul",
+        "destination": "Ankara",
+        "companyName": "Kamil Koç",
+        "ticketPrice": 100,
+        "time": "09:00"
     },
     {
-      "currentCity": "İstanbul",
-      "destination": "Ankara",
-      "companyName": "Ali Osman Ulusoy",
-      "ticketPrice": 130.0,
-      "time": "10:00"
+        "currentCity": "İstanbul",
+        "destination": "Ankara",
+        "companyName": "Ali Osman Ulusoy",
+        "ticketPrice": 130,
+        "time": "10:00"
     },
     {
-      "currentCity": "Ankara",
-      "destination": "İstanbul",
-      "companyName": "Metro",
-      "ticketPrice": 150.0,
-      "time": "08:00"
+        "currentCity": "Ankara",
+        "destination": "İstanbul",
+        "companyName": "Metro",
+        "ticketPrice": 150,
+        "time": "08:00"
     },
     {
-      "currentCity": "Ankara",
-      "destination": "İstanbul",
-      "companyName": "Kamil Koç",
-      "ticketPrice": 100.0,
-      "time": "09:00"
+        "currentCity": "Ankara",
+        "destination": "İstanbul",
+        "companyName": "Kamil Koç",
+        "ticketPrice": 100,
+        "time": "09:00"
     },
     {
-      "currentCity": "Ankara",
-      "destination": "İstanbul",
-      "companyName": "Ali Osman Ulusoy",
-      "ticketPrice": 130.0,
-      "time": "10:00"
+        "currentCity": "Ankara",
+        "destination": "İstanbul",
+        "companyName": "Ali Osman Ulusoy",
+        "ticketPrice": 130,
+        "time": "10:00"
     },
     {
-      "currentCity": "İstanbul",
-      "destination": "Samsun",
-      "companyName": "Metro",
-      "ticketPrice": 150.0,
-      "time": "08:00"
+        "currentCity": "İstanbul",
+        "destination": "Samsun",
+        "companyName": "Metro",
+        "ticketPrice": 150,
+        "time": "08:00"
     },
     {
-      "currentCity": "İstanbul",
-      "destination": "Samsun",
-      "companyName": "Kamil Koç",
-      "ticketPrice": 100.0,
-      "time": "09:00"
+        "currentCity": "İstanbul",
+        "destination": "Samsun",
+        "companyName": "Kamil Koç",
+        "ticketPrice": 100,
+        "time": "09:00"
     },
     {
-      "currentCity": "İstanbul",
-      "destination": "Samsun",
-      "companyName": "Ali Osman Ulusoy",
-      "ticketPrice": 130.0,
-      "time": "10:00"
+        "currentCity": "İstanbul",
+        "destination": "Samsun",
+        "companyName": "Ali Osman Ulusoy",
+        "ticketPrice": 130,
+        "time": "10:00"
     },
     {
-      "currentCity": "Samsun",
-      "destination": "İstanbul",
-      "companyName": "Metro",
-      "ticketPrice": 150.0,
-      "time": "08:00"
+        "currentCity": "Samsun",
+        "destination": "İstanbul",
+        "companyName": "Metro",
+        "ticketPrice": 150,
+        "time": "08:00"
     },
     {
-      "currentCity": "Samsun",
-      "destination": "İstanbul",
-      "companyName": "Kamil Koç",
-      "ticketPrice": 100.0,
-      "time": "09:00"
+        "currentCity": "Samsun",
+        "destination": "İstanbul",
+        "companyName": "Kamil Koç",
+        "ticketPrice": 100,
+        "time": "09:00"
     },
     {
-      "currentCity": "Samsun",
-      "destination": "İstanbul",
-      "companyName": "Ali Osman Ulusoy",
-      "ticketPrice": 130.0,
-      "time": "10:00"
+        "currentCity": "Samsun",
+        "destination": "İstanbul",
+        "companyName": "Ali Osman Ulusoy",
+        "ticketPrice": 130,
+        "time": "10:00"
     },
-  ]
-}
+]
+
 

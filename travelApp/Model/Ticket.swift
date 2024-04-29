@@ -11,7 +11,6 @@ struct Ticket {
     let seatNumber: Int
     let passenger: Passenger
     let date: Date
-    let hour: Hour
     let cities: City
     
     func comparison(){ //karşılaştırma
